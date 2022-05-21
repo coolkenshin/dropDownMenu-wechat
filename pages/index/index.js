@@ -92,7 +92,7 @@ Page({
 
   },
   selectedItem: function(e) {
-    console.log('id --' + e.detail.selectedId + "cityname = " + e.detail.selectedTitle);
+    console.log('id: ' + e.detail.selectedId + "; cityname = " + e.detail.selectedTitle);
   },
   showDialog: function(e) {
 
